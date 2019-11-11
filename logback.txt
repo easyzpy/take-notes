@@ -1,0 +1,15 @@
+logback是springboot默认的日志包， logback是log4j的创始人设计的又一个开源日志组件
+
+1.springboot默认会找classpath下的logback-spring.xml文件 如果没有的话他自己应该也有一个这样的配置文件
+可以在application.properties中配置
+ % logging.config=classpath:log/l.xml
+
+2.logback分为三个组件 logback-core, logback-classic, logback-access
+logback-core:提供了logback的核心功能，是另外两个组件的基础。
+logback-classic：实现了slf4j的API，所以当想配合slf4j使用时需要logback-classic
+logback-access:为了继承servlet环境而准备的，可提供HTTP-access的日志接口
+
+
+
+
+C:\Users\administritor\Desktop\githubNew\security\log\l.xml (系统找不到指定的路径。)

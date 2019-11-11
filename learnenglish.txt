@@ -1,0 +1,9 @@
+1.The following table presents some database executables and the corresponding MongoDB executables. This table is not meant to be exhaustive.
+下表显示了一些数据库可执行文件和相应的mongodb可执行文件，该表并非详尽无遗
+
+
+
+
+
+
+
